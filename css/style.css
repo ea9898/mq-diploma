@@ -26,6 +26,18 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --font-weight-bold: bold;
+
+  --font-size-twenty: 20px;
+  --font-size-fourteen: 14px;
+
+  --footer-link-width: 20px;
+  --footer-link-height: 20px;
+}
+
 @media (min-width: 1200px) {
   .header {
     position: relative;
@@ -47,7 +59,7 @@ body {
     bottom: 0;
   
     opacity: 0.6;
-    background-color: #000000;
+    background-color: var(--color-black);
     z-index: 1;
   }
   
@@ -86,7 +98,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    color: #ffffff;
+    color: var(--color-white);
   }
   
   .menu-list-item:nth-child(n + 2) {
@@ -100,11 +112,11 @@ body {
   .intro {
     position: relative;
     font-size: 41px;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     text-align: center;
     line-height: 68px;
-    color: #ffffff;
+    color: var(--color-white);
   
     width: 660px;
     padding-top: 75px;
@@ -123,8 +135,8 @@ body {
 }
   
 .trends-products-title {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: var(--font-size-twenty);
+  font-weight: var(--font-weight-bold);
   margin: auto;
   text-transform: uppercase;
   padding-top: 60px;
@@ -172,7 +184,7 @@ body {
   bottom: 0;
 
   opacity: 0.5;
-  background-color: #000000;
+  background-color: var(--color-black);
   z-index: 1;
 }
 
@@ -185,12 +197,12 @@ body {
 }
 
 .trends-posts-card {
-  font-size: 20px;
+  font-size: var(--font-size-twenty);
   text-transform: uppercase;
 }
 
 .trends-posts-title {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .trends-posts-card-two {
@@ -270,7 +282,7 @@ body {
 
   .desc {
     font-size: 13px;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     word-spacing: 16px;
     color: #b59f5b;
@@ -278,7 +290,7 @@ body {
   
   .subtitle-tag {
     font-size: 13px;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     word-spacing: 16px;
     color: #b59f5b;
@@ -286,7 +298,7 @@ body {
   
   .card-title {
     font-size: 19px;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     padding-top: 5px;
     line-height: 23px;
@@ -306,8 +318,8 @@ body {
   
   .card-date-desc {
     font-size: 12px;
-    font-weight: bold;
-    color: #000000;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-black);
     padding-left: 10px;
     padding-top: 10px;
   }
@@ -325,7 +337,7 @@ body {
   .heading-title {
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     margin-top: 35px;
     text-align: center;
     color: #0f0d0e;
@@ -360,11 +372,11 @@ body {
   }
   
   .new-posts-card-date-desc {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     line-height: 1.5;
-    color: #000000;
+    color: var(--color-black);
   }
   
   /* ================= */
@@ -429,10 +441,10 @@ body {
     height: 45px;
     margin-top: 20px;
     background-color: #b59f5b;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--color-white);
     border: none;
   }
   
@@ -452,7 +464,7 @@ body {
   
   .tags-li {
     font-size: 12px;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     color: #2a2829;
     text-transform: uppercase;
     border: 3px #ededed solid;
@@ -461,9 +473,10 @@ body {
   }
   
   .side-panel-tags {
+    display: inline-block;
     font-size: 12px;
     color: #2a2829;
-    padding: 14px;
+    padding: 5px 14px;
   }
   
   /* ================= */
@@ -475,7 +488,7 @@ body {
   .thems-title {
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     margin-top: 35px;
     text-align: center;
     color: #0f0d0e;
@@ -490,9 +503,9 @@ body {
   }
   
   .theme-name {
-    font-size: 14px;
-    font-weight: bold;
-    color: #000000;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-black);
     text-decoration: none;
   }
   
@@ -511,8 +524,8 @@ body {
     margin-top: 20px;
     width: 100%;
   
-    font-size: 14px;
-    font-weight: bold;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
     color: #c4b27c;
   
     padding-bottom: 15px;
@@ -583,7 +596,7 @@ body {
   .our-products-card-title {
     text-transform: uppercase;
     padding: 0 20px;
-    font-size: 20px;
+    font-size: var(--font-size-twenty);
     margin-top: 55px;
   }
 
@@ -617,16 +630,16 @@ body {
 
   .crossed-out-amount {
     display: block;
-    font-size: 14px;
-    font-weight: bold;
-    color: #000000;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-black);
   }
 
   .actual-price {
     display: block;
-    font-size: 20px;
-    color: #000000;
-    font-weight: bold;
+    font-size: var(--font-size-twenty);
+    color: var(--color-black);
+    font-weight: var(--font-weight-bold);
   }
    
   .in-strore {
@@ -635,10 +648,10 @@ body {
     padding: 20px;
     background-color: #a38b43;
     border: none;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--color-white);
     text-align: center;
   }
 
@@ -651,8 +664,6 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     width: 345px;
-
-    background-color: #ffffff;
   }
 
   .our-products-card-three {
@@ -677,65 +688,53 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    height: 81px;
   }
   
   
   .link1 {
     display: block;
-    width: 20px;
+    width: var(--footer-link-width);
+    height: var(--footer-link-height);
     background-image: url("/svg/001-dribbble.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-  
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+
+    margin-top: 32px;
+    margin-bottom: auto;
   }
   
   .link2 {
     display: block;
-    width: 20px;
+    width: var(--footer-link-width);
+    height: var(--footer-link-height);
     background-image: url("/svg//002-pinterest.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
   
+    margin-top: 32px;
     margin-left: 32px;
-    padding-top: 30px;
-    padding-bottom: 30px;
   }
   
   .link3 {
     display: block;
-    width: 20px;
+    width: var(--footer-link-width);
+    height: var(--footer-link-height);
     background-image: url("/svg/003-tumblr.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
   
+    margin-top: 32px;
     margin-left: 32px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  .link1 {
-    width: 20px;
-  }
-  
-  .link2 {
-    width: 20px;
-  }
-  
-  .link3 {
-    width: 20px;
   }
   
   .data {
     text-align: center;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     color: #999999;
   
     margin-top: 75px;
