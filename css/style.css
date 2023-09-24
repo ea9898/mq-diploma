@@ -1308,7 +1308,7 @@ body {
     }
 
     .our-products-card-one {
-        background-image: url("/img/shop-item-desk1.jpg");
+        background-image: url("/img/shop-item-tablet1.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 335px;
@@ -1387,14 +1387,14 @@ body {
     }
 
     .our-products-card-two {
-        background-image: url("/img/shop-item-desk2.jpg");
+        background-image: url("/img/shop-item-tablet2.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 345px;
     }
 
     .our-products-card-three {
-        background-image: url("/img/shop-item-desk3.jpg");
+        background-image: url("/img/shop-item-tablet3.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 345px;
