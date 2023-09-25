@@ -2478,3 +2478,55 @@ body {
     }
 }
 
+@media (orientation: landscape) {
+    .trends-posts-card-one {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url("/img/trend1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 49%;
+    }
+
+    .trends-posts-card-two {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url("/img/trend2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 49%;
+    }
+
+    .trends-posts-card-three {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url("/img/trend3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 49%;
+    }
+
+    .trends-posts-card-four {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url("/img/trend4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 49%;
+    }
+}
+
+
+
