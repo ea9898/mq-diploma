@@ -276,8 +276,6 @@ body {
         color: #000000;
         text-transform: uppercase;
 
-        width: 100%;
-        height: 100%;
         margin-top: 55px;
         text-align: center;
     }
@@ -293,8 +291,6 @@ body {
 
     .online-site-label {
         font-size: 14px;
-        width: 100%;
-        height: 45px;
         margin: 30px 0 0 30px;
     }
 
@@ -313,7 +309,6 @@ body {
 
     .online-site-input {
         width: 280px;
-        height: 45px;
         padding-left: 20px;
         background-color: #f3f7f6;
         border: none;
@@ -341,10 +336,6 @@ body {
         width: 330px;
         margin: 10px 0 10px 30px;
     }
-
-    /*.checkbox-label {*/
-    /*    font-size: 14px;*/
-    /*}*/
 
     .email-delivery {
         width: 330px;
@@ -1146,8 +1137,6 @@ body {
         color: #000000;
         text-transform: uppercase;
 
-        width: 100%;
-        height: 100%;
         margin-top: 55px;
         text-align: center;
     }
@@ -1163,8 +1152,6 @@ body {
 
     .online-site-label {
         font-size: 14px;
-        width: 100%;
-        height: 45px;
         margin: 30px 0 0 30px;
     }
 
@@ -1984,8 +1971,149 @@ body {
 
     /* POPUP */
 
+    .popup-wrp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background: rgba(0, 0, 0, 0.7);
+
+        z-index: 4;
+    }
+
     ._hidden {
         display: none;
+    }
+
+    .popup {
+        width: 330px;
+        background-color: white;
+    }
+
+    .feedback {
+        font-size: 16px;
+        color: #000000;
+        text-transform: uppercase;
+
+        /*width: 100%;*/
+        /*height: 100%;*/
+        margin-top: 55px;
+        text-align: center;
+    }
+
+    .feedback:after {
+        content: "";
+        display: flex;
+        width: 66px;
+        height: 5px;
+        margin: 10px auto 0;
+        background-color: #e1d9bd;
+    }
+
+    .online-site-label {
+        font-size: 14px;
+        /*width: 100%;*/
+        height: 45px;
+        margin: 30px 0 0 30px;
+    }
+
+    .enter-site {
+        display: block;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .input-btn {
+        display: flex;
+        margin: 10px auto 0;
+        width: 280px;
+        height: 45px;
+    }
+
+    .online-site-input {
+        width: 280px;
+        height: 45px;
+        padding-left: 20px;
+        background-color: #f3f7f6;
+        border: none;
+    }
+
+    .btn-popup {
+        background-image: url("/svg/form-arrows.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 10px;
+        padding: 20px;
+        border: none;
+        background-color: #f3f7f6;
+
+        width: 50px;
+        height: 45px;
+    }
+
+    .btn-popup:hover {
+        cursor: pointer;
+    }
+
+    .subscribe-del {
+        display: block;
+        width: 250px;
+        margin: 10px 0 10px 30px;
+    }
+
+    .email-delivery {
+        width: 330px;
+    }
+
+    .check {
+        width: 1.7em;
+        height: 1.7em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        -webkit-appearance: none;
+        cursor: pointer;
+
+        margin-left: 30px;
+
+        background-image: url("/svg/form-circle.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .desc-content {
+        width: 100%;
+    }
+
+    .textarea-popup {
+        margin-left: 30px;
+        min-width: 280px;
+        min-height: 125px;
+        max-width: 280px;
+        max-height: 125px;
+        background-color: #f3f7f6;
+
+        padding: 15px 0 0 20px;
+        border: none;
+    }
+
+    .btn-subscribe-popup {
+        display: block;
+        width: 280px;
+        height: 45px;
+        margin: 20px auto 55px;
+        background-color: #b59f5b;
+        font-size: var(--font-size-fourteen);
+        font-weight: var(--font-weight-bold);
+        text-transform: uppercase;
+        color: var(--color-white);
+        border: none;
     }
 
     /* MAIN */
