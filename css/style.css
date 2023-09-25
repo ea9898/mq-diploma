@@ -352,6 +352,22 @@ body {
 
         margin-left: 30px;
 
+        background-image: url("/svg/form-empty-circle.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .check:checked {
+        width: 1.7em;
+        height: 1.7em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        -webkit-appearance: none;
+        cursor: pointer;
+
+        margin-left: 30px;
+
         background-image: url("/svg/form-circle.svg");
         background-size: 100%;
         background-repeat: no-repeat;
@@ -1204,6 +1220,22 @@ body {
     }
 
     .check {
+        width: 1.7em;
+        height: 1.7em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        -webkit-appearance: none;
+        cursor: pointer;
+
+        margin-left: 30px;
+
+        background-image: url("/svg/form-empty-circle.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .check:checked {
         width: 1.7em;
         height: 1.7em;
         background-color: white;
@@ -2069,6 +2101,22 @@ body {
     }
 
     .check {
+        width: 1.7em;
+        height: 1.7em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        -webkit-appearance: none;
+        cursor: pointer;
+
+        margin-left: 30px;
+
+        background-image: url("/svg/form-empty-circle.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .check:checked {
         width: 1.7em;
         height: 1.7em;
         background-color: white;
