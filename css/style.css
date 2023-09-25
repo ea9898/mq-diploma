@@ -21,7 +21,6 @@
 
 a {
     text-decoration: none;
-    /*margin: auto auto;*/
 }
 
 body {
@@ -40,6 +39,115 @@ body {
 
     --footer-link-width: 20px;
     --footer-link-height: 20px;
+}
+
+.intro {
+    position: relative;
+    font-size: 41px;
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 68px;
+    color: var(--color-white);
+
+    width: 660px;
+    padding-top: 75px;
+    padding-bottom: 115px;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 2;
+}
+
+.popup-wrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    z-index: 4;
+}
+
+.check {
+    width: 1.7em;
+    height: 1.7em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    cursor: pointer;
+
+    margin-left: 30px;
+
+    background-image: url("/svg/form-empty-circle.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.check:checked {
+    width: 1.7em;
+    height: 1.7em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    cursor: pointer;
+
+    margin-left: 30px;
+
+    background-image: url("/svg/form-circle.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.btn-subscribe-popup {
+    display: block;
+    width: 330px;
+    height: 45px;
+    margin: 20px auto 55px;
+    background-color: #b59f5b;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    color: var(--color-white);
+    border: none;
+}
+
+.in-strore {
+    width: 140px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #a38b43;
+    border: none;
+    font-size: var(--font-size-fourteen);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.menu__button {
+    width: 1.4em;
+    height: 1em;
+    border: none;
+    padding: 0;
+
+    background-color: transparent;
+    font-size: 19px;
+    color: #ffffff;
+    position: relative;
+    top: 53px;
+    right: 35px;
+    text-indent: -9999px;
+    cursor: pointer;
+    z-index: 2;
 }
 
 @media (min-width: 1200px) {
@@ -113,25 +221,7 @@ body {
         z-index: 3;
     }
 
-    .intro {
-        position: relative;
-        font-size: 41px;
-        font-weight: var(--font-weight-bold);
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 68px;
-        color: var(--color-white);
-
-        width: 660px;
-        padding-top: 75px;
-        padding-bottom: 115px;
-        margin-left: auto;
-        margin-right: auto;
-
-        z-index: 2;
-    }
-
-    /* ========================= */
+    /* TREND PRODUCTS */
     .trends-products {
         display: flex;
         width: 100%;
@@ -245,23 +335,6 @@ body {
     }
 
     /* POPUP */
-
-    .popup-wrp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        background: rgba(0, 0, 0, 0.7);
-
-        z-index: 4;
-    }
-
     ._hidden {
         display: none;
     }
@@ -341,38 +414,6 @@ body {
         width: 330px;
     }
 
-    .check {
-        width: 1.7em;
-        height: 1.7em;
-        background-color: white;
-        border-radius: 50%;
-        vertical-align: middle;
-        -webkit-appearance: none;
-        cursor: pointer;
-
-        margin-left: 30px;
-
-        background-image: url("/svg/form-empty-circle.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-
-    .check:checked {
-        width: 1.7em;
-        height: 1.7em;
-        background-color: white;
-        border-radius: 50%;
-        vertical-align: middle;
-        -webkit-appearance: none;
-        cursor: pointer;
-
-        margin-left: 30px;
-
-        background-image: url("/svg/form-circle.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-
     .desc-content {
         width: 100%;
     }
@@ -386,19 +427,6 @@ body {
         background-color: #f3f7f6;
 
         padding: 15px 0 0 20px;
-        border: none;
-    }
-
-    .btn-subscribe-popup {
-        display: block;
-        width: 330px;
-        height: 45px;
-        margin: 20px auto 55px;
-        background-color: #b59f5b;
-        font-size: var(--font-size-fourteen);
-        font-weight: var(--font-weight-bold);
-        text-transform: uppercase;
-        color: var(--color-white);
         border: none;
     }
 
@@ -636,7 +664,7 @@ body {
         padding: 5px 14px;
     }
 
-    /* SIDE PANEL THEMS */
+    /* SIDE PANEL THEM */
     .thems {
         position: relative;
     }
@@ -789,20 +817,7 @@ body {
         font-weight: var(--font-weight-bold);
     }
 
-    .in-strore {
-        width: 140px;
-        margin-right: 20px;
-        padding: 20px;
-        background-color: #a38b43;
-        border: none;
-        font-size: var(--font-size-fourteen);
-        font-weight: var(--font-weight-bold);
-        text-transform: uppercase;
-        color: var(--color-white);
-        text-align: center;
-    }
-
-    .in-strore:hover {
+    .in-store:hover {
         background-color: #8e752b;
     }
 
@@ -938,23 +953,6 @@ body {
         display: none;
     }
 
-    .menu__button {
-        width: 1.4em;
-        height: 1em;
-        border: none;
-        padding: 0;
-
-        background-color: transparent;
-        font-size: 19px;
-        color: #ffffff;
-        position: relative;
-        top: 53px;
-        right: 35px;
-        text-indent: -9999px;
-        cursor: pointer;
-        z-index: 2;
-    }
-
     .menu__button:before, .menu__button:after {
         content: "";
         width: 100%;
@@ -986,24 +984,6 @@ body {
         position: absolute;
         left: 0;
         top: 50%;
-    }
-
-    .intro {
-        position: relative;
-        font-size: 41px;
-        font-weight: var(--font-weight-bold);
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 68px;
-        color: var(--color-white);
-
-        width: 660px;
-        padding-top: 75px;
-        padding-bottom: 115px;
-        margin-left: auto;
-        margin-right: auto;
-
-        z-index: 2;
     }
 
     /* TRENDS PRODUCTS */
@@ -1122,23 +1102,6 @@ body {
     }
 
     /* POPUP */
-
-    .popup-wrp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        background: rgba(0, 0, 0, 0.7);
-
-        z-index: 4;
-    }
-
     ._hidden {
         display: none;
     }
@@ -1219,38 +1182,6 @@ body {
         width: 330px;
     }
 
-    .check {
-        width: 1.7em;
-        height: 1.7em;
-        background-color: white;
-        border-radius: 50%;
-        vertical-align: middle;
-        -webkit-appearance: none;
-        cursor: pointer;
-
-        margin-left: 30px;
-
-        background-image: url("/svg/form-empty-circle.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-
-    .check:checked {
-        width: 1.7em;
-        height: 1.7em;
-        background-color: white;
-        border-radius: 50%;
-        vertical-align: middle;
-        -webkit-appearance: none;
-        cursor: pointer;
-
-        margin-left: 30px;
-
-        background-image: url("/svg/form-circle.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-
     .desc-content {
         width: 100%;
     }
@@ -1264,19 +1195,6 @@ body {
         background-color: #f3f7f6;
 
         padding: 15px 0 0 20px;
-        border: none;
-    }
-
-    .btn-subscribe-popup {
-        display: block;
-        width: 330px;
-        height: 45px;
-        margin: 20px auto 55px;
-        background-color: #b59f5b;
-        font-size: var(--font-size-fourteen);
-        font-weight: var(--font-weight-bold);
-        text-transform: uppercase;
-        color: var(--color-white);
         border: none;
     }
 
@@ -1416,7 +1334,7 @@ body {
         color: var(--color-black);
     }
 
-    /* ================= */
+    /* SIDE PANEL SEARCH */
     .search {
         display: flex;
         justify-content: space-between;
@@ -1488,7 +1406,7 @@ body {
         background-color: #a38b43;
     }
 
-    /* ================== */
+    /* SIDE PANEL TAGS */
     .tags-ul {
         list-style: none;
         display: flex;
@@ -1514,7 +1432,7 @@ body {
         padding: 5px 14px;
     }
 
-    /* ================= */
+    /* SIDE PANEL THEM */
     .thems {
         position: relative;
     }
@@ -1597,7 +1515,7 @@ body {
         top: -5px;
     }
 
-    /* ====================== */
+    /* OUR PRODUCTS */
     .our-products {
         display: flex;
         flex-wrap: wrap;
@@ -1669,20 +1587,7 @@ body {
         font-weight: var(--font-weight-bold);
     }
 
-    .in-strore {
-        width: 140px;
-        margin-right: 20px;
-        padding: 20px;
-        background-color: #a38b43;
-        border: none;
-        font-size: var(--font-size-fourteen);
-        font-weight: var(--font-weight-bold);
-        text-transform: uppercase;
-        color: var(--color-white);
-        text-align: center;
-    }
-
-    .in-strore:hover {
+    .in-store:hover {
         background-color: #8e752b;
     }
 
@@ -1701,7 +1606,7 @@ body {
         height: 435px;
     }
 
-    /* ====================== */
+    /* FOOTER */
     .footer {
         display: flex;
         width: 768px;
@@ -1818,23 +1723,6 @@ body {
         display: none;
     }
 
-    .menu__button {
-        width: 1.4em;
-        height: 1em;
-        border: none;
-        padding: 0;
-
-        background-color: transparent;
-        font-size: 19px;
-        color: #ffffff;
-        position: relative;
-        top: 53px;
-        right: 35px;
-        text-indent: -9999px;
-        cursor: pointer;
-        z-index: 2;
-    }
-
     .menu__button:before, .menu__button:after {
         content: "";
         width: 100%;
@@ -1886,7 +1774,7 @@ body {
         z-index: 2;
     }
 
-    /* ========================= */
+    /* TRENDS PRODUCTS */
     .trends-products {
         display: flex;
         width: 100%;
@@ -2002,23 +1890,6 @@ body {
     }
 
     /* POPUP */
-
-    .popup-wrp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        background: rgba(0, 0, 0, 0.7);
-
-        z-index: 4;
-    }
-
     ._hidden {
         display: none;
     }
@@ -2098,38 +1969,6 @@ body {
 
     .email-delivery {
         width: 330px;
-    }
-
-    .check {
-        width: 1.7em;
-        height: 1.7em;
-        background-color: white;
-        border-radius: 50%;
-        vertical-align: middle;
-        -webkit-appearance: none;
-        cursor: pointer;
-
-        margin-left: 30px;
-
-        background-image: url("/svg/form-empty-circle.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-
-    .check:checked {
-        width: 1.7em;
-        height: 1.7em;
-        background-color: white;
-        border-radius: 50%;
-        vertical-align: middle;
-        -webkit-appearance: none;
-        cursor: pointer;
-
-        margin-left: 30px;
-
-        background-image: url("/svg/form-circle.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
     }
 
     .desc-content {
@@ -2299,7 +2138,7 @@ body {
         color: var(--color-black);
     }
 
-    /* ================= */
+    /* SIDE PANEL SEARCH */
     .search {
         display: flex;
         justify-content: space-between;
@@ -2371,7 +2210,7 @@ body {
         background-color: #a38b43;
     }
 
-    /* ================== */
+    /* SIDE PANEL TAGS */
     .tags-ul {
         list-style: none;
         display: flex;
@@ -2397,7 +2236,7 @@ body {
         padding: 5px 12px;
     }
 
-    /* ================= */
+    /* SIDE PANEL THEM */
     .thems {
         position: relative;
     }
@@ -2482,7 +2321,7 @@ body {
         right: 0px;
     }
 
-    /* ====================== */
+    /* OUR PRODUCTS */
     .our-products {
         display: flex;
         flex-wrap: wrap;
@@ -2553,20 +2392,7 @@ body {
         font-weight: var(--font-weight-bold);
     }
 
-    .in-strore {
-        width: 140px;
-        margin-right: 20px;
-        padding: 20px;
-        background-color: #a38b43;
-        border: none;
-        font-size: var(--font-size-fourteen);
-        font-weight: var(--font-weight-bold);
-        text-transform: uppercase;
-        color: var(--color-white);
-        text-align: center;
-    }
-
-    .in-strore:hover {
+    .in-store:hover {
         background-color: #8e752b;
     }
 
@@ -2586,7 +2412,7 @@ body {
         background-position: top center;
     }
 
-    /* ====================== */
+    /* FOOTER */
     .footer {
         display: flex;
         width: 360px;
@@ -2601,7 +2427,6 @@ body {
         margin-right: auto;
         height: 81px;
     }
-
 
     .link1 {
         display: block;
