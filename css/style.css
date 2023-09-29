@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular.woff");
+    src: url("https://ea9898.github.io/fonts/OpenSans-Regular.woff");
     font-weight: 400;
     font-style: normal;
 }
@@ -8,7 +8,7 @@
 @font-face {
     font-family: "Open Sans";
 
-    src: url("/fonts/OpenSans-Bold.woff");
+    src: url("https://ea9898.github.io/fonts/OpenSans-Bold.woff");
     font-weight: 700;
     font-style: normal;
 }
@@ -86,7 +86,7 @@ body {
 
     margin-left: 30px;
 
-    background-image: url("/svg/form-empty-circle.svg");
+    background-image: url("https://ea9898.github.io/svg/form-empty-circle.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -102,7 +102,7 @@ body {
 
     margin-left: 30px;
 
-    background-image: url("/svg/form-circle.svg");
+    background-image: url("https://ea9898.github.io/svg/form-circle.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -153,7 +153,7 @@ body {
 @media (min-width: 1200px) {
     .header {
         position: relative;
-        background-image: url("/img/banner-bg.jpg");
+        background-image: url("https://ea9898.github.io/img/banner-bg.jpg");
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -260,7 +260,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend1.jpg");
+        background-image: url("https://ea9898.github.io/img/trend1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -303,7 +303,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend2.jpg");
+        background-image: url("https://ea9898.github.io/img/trend2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -315,7 +315,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend3.jpg");
+        background-image: url("https://ea9898.github.io/img/trend3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -327,7 +327,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend4.jpg");
+        background-image: url("https://ea9898.github.io/img/trend4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -388,7 +388,7 @@ body {
     }
 
     .btn-popup {
-        background-image: url("/svg/form-arrows.svg");
+        background-image: url("https://ea9898.github.io/svg/form-arrows.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 10px;
@@ -600,7 +600,7 @@ body {
     }
 
     .btn-search {
-        background-image: url("/svg/search.svg");
+        background-image: url("https://ea9898.github.io/svg/search.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 20px;
@@ -757,7 +757,7 @@ body {
     }
 
     .our-products-card-one {
-        background-image: url("/img/shop-item-desk1.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-desk1.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 345px;
@@ -822,14 +822,14 @@ body {
     }
 
     .our-products-card-two {
-        background-image: url("/img/shop-item-desk2.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-desk2.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 345px;
     }
 
     .our-products-card-three {
-        background-image: url("/img/shop-item-desk3.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-desk3.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 345px;
@@ -857,7 +857,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/001-dribbble.svg");
+        background-image: url("https://ea9898.github.io/svg/001-dribbble.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -870,7 +870,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/002-pinterest.svg");
+        background-image: url("https://ea9898.github.io/svg/002-pinterest.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -883,7 +883,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/003-tumblr.svg");
+        background-image: url("https://ea9898.github.io/svg/003-tumblr.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -906,7 +906,7 @@ body {
 @media (min-width: 768px) and (max-width: 1199px) {
     .header {
         position: relative;
-        background-image: url("/img/banner-bg-tablet.jpg");
+        background-image: url("https://ea9898.github.io/img/banner-bg-tablet.jpg");
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1026,7 +1026,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend1.jpg");
+        background-image: url("https://ea9898.github.io/img/trend1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -1070,7 +1070,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend2.jpg");
+        background-image: url("https://ea9898.github.io/img/trend2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -1082,7 +1082,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend3.jpg");
+        background-image: url("https://ea9898.github.io/img/trend3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -1094,7 +1094,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend4.jpg");
+        background-image: url("https://ea9898.github.io/img/trend4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -1156,7 +1156,7 @@ body {
     }
 
     .btn-popup {
-        background-image: url("/svg/form-arrows.svg");
+        background-image: url("https://ea9898.github.io/svg/form-arrows.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 10px;
@@ -1368,7 +1368,7 @@ body {
     }
 
     .btn-search {
-        background-image: url("/svg/search.svg");
+        background-image: url("https://ea9898.github.io/svg/search.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 20px;
@@ -1526,7 +1526,7 @@ body {
     }
 
     .our-products-card-one {
-        background-image: url("/img/shop-item-tablet1.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-tablet1.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 335px;
@@ -1592,14 +1592,14 @@ body {
     }
 
     .our-products-card-two {
-        background-image: url("/img/shop-item-tablet2.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-tablet2.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 345px;
     }
 
     .our-products-card-three {
-        background-image: url("/img/shop-item-tablet3.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-tablet3.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         width: 345px;
@@ -1627,7 +1627,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/001-dribbble.svg");
+        background-image: url("https://ea9898.github.io/svg/001-dribbble.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -1640,7 +1640,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/002-pinterest.svg");
+        background-image: url("https://ea9898.github.io/svg/002-pinterest.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -1653,7 +1653,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/003-tumblr.svg");
+        background-image: url("https://ea9898.github.io/svg/003-tumblr.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -1676,7 +1676,7 @@ body {
 @media (min-width: 360px) and (max-width: 767px) {
     .header {
         position: relative;
-        background-image: url("/img/banner-mobile.jpg");
+        background-image: url("https://ea9898.github.io/img/banner-mobile.jpg");
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1814,7 +1814,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend1.jpg");
+        background-image: url("https://ea9898.github.io/img/trend1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -1858,7 +1858,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend2.jpg");
+        background-image: url("https://ea9898.github.io/img/trend2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -1870,7 +1870,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend3.jpg");
+        background-image: url("https://ea9898.github.io/img/trend3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -1882,7 +1882,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("/img/trend4.jpg");
+        background-image: url("https://ea9898.github.io/img/trend4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
@@ -1945,7 +1945,7 @@ body {
     }
 
     .btn-popup {
-        background-image: url("/svg/form-arrows.svg");
+        background-image: url("https://ea9898.github.io/svg/form-arrows.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 10px;
@@ -2172,7 +2172,7 @@ body {
     }
 
     .btn-search {
-        background-image: url("/svg/search.svg");
+        background-image: url("https://ea9898.github.io/svg/search.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 20px;
@@ -2332,7 +2332,7 @@ body {
     }
 
     .our-products-card-one {
-        background-image: url("/img/shop-item-tablet1.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-tablet1.jpg");
         background-repeat: no-repeat;
         background-position: top center;
     }
@@ -2401,13 +2401,13 @@ body {
     }
 
     .our-products-card-two {
-        background-image: url("/img/shop-item-tablet2.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-tablet2.jpg");
         background-repeat: no-repeat;
         background-position: top center;
     }
 
     .our-products-card-three {
-        background-image: url("/img/shop-item-tablet3.jpg");
+        background-image: url("https://ea9898.github.io/img/shop-item-tablet3.jpg");
         background-repeat: no-repeat;
         background-position: top center;
     }
@@ -2432,7 +2432,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/001-dribbble.svg");
+        background-image: url("https://ea9898.github.io/svg/001-dribbble.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -2445,7 +2445,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/002-pinterest.svg");
+        background-image: url("https://ea9898.github.io/svg/002-pinterest.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -2458,7 +2458,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/003-tumblr.svg");
+        background-image: url("https://ea9898.github.io/svg/003-tumblr.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -2485,7 +2485,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            background-image: url("/img/trend1.jpg");
+            background-image: url("https://ea9898.github.io/img/trend1.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -2497,7 +2497,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            background-image: url("/img/trend2.jpg");
+            background-image: url("https://ea9898.github.io/img/trend2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: top center;
@@ -2509,7 +2509,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            background-image: url("/img/trend3.jpg");
+            background-image: url("https://ea9898.github.io/img/trend3.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: top center;
@@ -2521,7 +2521,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            background-image: url("/img/trend4.jpg");
+            background-image: url("https://ea9898.github.io/img/trend4.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: top center;
