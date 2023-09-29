@@ -86,7 +86,7 @@ body {
 
     margin-left: 30px;
 
-    background-image: url("/svg/form-empty-circle.svg");
+    background-image: url("../svg/form-empty-circle.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -102,7 +102,7 @@ body {
 
     margin-left: 30px;
 
-    background-image: url("/svg/form-circle.svg");
+    background-image: url("../svg/form-circle.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
