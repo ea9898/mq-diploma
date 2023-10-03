@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff");
     font-weight: 400;
     font-style: normal;
 }
@@ -8,7 +8,7 @@
 @font-face {
     font-family: "Open Sans";
 
-    src: url("/fonts/OpenSans-Bold.woff");
+    src: url("../fonts/OpenSans-Bold.woff");
     font-weight: 700;
     font-style: normal;
 }
@@ -600,7 +600,7 @@ body {
     }
 
     .btn-search {
-        background-image: url("/svg/search.svg");
+        background-image: url("../svg/search.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 20px;
@@ -883,7 +883,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/003-tumblr.svg");
+        background-image: url("../svg/003-tumblr.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -1627,7 +1627,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/001-dribbble.svg");
+        background-image: url("../svg/001-dribbble.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
@@ -1640,7 +1640,7 @@ body {
         display: block;
         width: var(--footer-link-width);
         height: var(--footer-link-height);
-        background-image: url("/svg/002-pinterest.svg");
+        background-image: url("../svg/002-pinterest.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
