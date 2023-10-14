@@ -75,6 +75,14 @@ body {
     z-index: 4;
 }
 
+.online-site-input:focus {
+    outline: none;
+}
+
+.textarea-popup:focus {
+    outline: none;
+}
+
 .check {
     width: 1.7em;
     height: 1.7em;
@@ -420,10 +428,9 @@ body {
 
     .textarea-popup {
         margin-left: 30px;
-        min-width: 330px;
-        min-height: 125px;
-        max-width: 330px;
-        max-height: 400px;
+        width: 330px;
+        height: 125px;
+        resize: none;
         background-color: #f3f7f6;
 
         padding: 15px 0 0 20px;
@@ -451,8 +458,8 @@ body {
         padding-top: 50px;
     }
 
-    .card-img {
-        width: 380px;
+    .box-img {
+        min-width: 380px;
     }
 
     .card-content {
@@ -590,6 +597,10 @@ body {
         background-color: #f4f7f6;
     }
 
+    .search-field:focus {
+        outline: none;
+    }
+
     .magnifier {
         display: flex;
         justify-content: center;
@@ -620,6 +631,10 @@ body {
         width: 100%;
         border: none;
         background-color: #f4f7f6;
+    }
+
+    .input-mail-delivery:focus {
+        outline: none;
     }
 
     .subscribe {
@@ -1188,10 +1203,9 @@ body {
 
     .textarea-popup {
         margin-left: 30px;
-        min-width: 330px;
-        min-height: 125px;
-        max-width: 390px;
-        max-height: 400px;
+        width: 330px;
+        height: 125px;
+        resize: none;
         background-color: #f3f7f6;
 
         padding: 15px 0 0 20px;
@@ -1977,10 +1991,9 @@ body {
 
     .textarea-popup {
         margin-left: 30px;
-        min-width: 280px;
-        min-height: 125px;
-        max-width: 280px;
-        max-height: 125px;
+        width: 280px;
+        height: 125px;
+        resize: none;
         background-color: #f3f7f6;
 
         padding: 15px 0 0 20px;
